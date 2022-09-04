@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lms.API", "Lms.API.csproj", "{E43323F5-6B18-4E73-9756-03B63AF6663B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lms.API", "Lms.API.csproj", "{E43323F5-6B18-4E73-9756-03B63AF6663B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lms.Core", "..\Lms.Core\Lms.Core.csproj", "{7B35EEDE-442B-4C9C-9BB8-57C678A4B03B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lms.Core", "..\Lms.Core\Lms.Core.csproj", "{7B35EEDE-442B-4C9C-9BB8-57C678A4B03B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lms.Data", "..\Lms.Data\Lms.Data.csproj", "{5DE7B345-9CD7-49C9-A7A3-F27834F51BF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lms.Data", "..\Lms.Data\Lms.Data.csproj", "{5DE7B345-9CD7-49C9-A7A3-F27834F51BF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{050F06A3-8D95-49F1-97ED-5FFD171C4858}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
